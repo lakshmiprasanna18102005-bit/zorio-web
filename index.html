@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zorio - Fashion Dress Shop</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="top-bar">
+            <div class="container-fluid">
+                <div class="top-bar-content">
+                    <div class="top-left">
+                        <span><i class="fas fa-phone"></i> +1 234 567 8900</span>
+                        <span><i class="fas fa-envelope"></i> support@zorio.com</span>
+                    </div>
+                    <div class="top-right">
+                        <span>Free Shipping on Orders Over $50</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <nav>
+            <div class="container-fluid">
+                <div class="nav-content">
+                    <div class="logo">
+                        <i class="fas fa-shopping-bag"></i>
+                        ZORIO
+                    </div>
+                    <ul class="nav-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#womens">Women</a></li>
+                        <li><a href="#mens">Men</a></li>
+                        <li><a href="#traditional">Traditional Wear</a></li>
+                        <li><a href="#modern">Modern</a></li>
+                        <li><a href="#accessories">Accessories</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                    <div class="nav-icons">
+                        <div class="search-box">
+                            <input type="text" placeholder="Search products...">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <a href="#" class="icon-link">
+                            <i class="fas fa-user"></i>
+                        </a>
+                        <a href="#" class="icon-link">
+                            <i class="fas fa-heart"></i>
+                            <span class="badge">3</span>
+                        </a>
+                        <a href="#" class="icon-link">
+                            <i class="fas fa-shopping-cart"></i>
+                            <span class="badge">2</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero-slider">
+        <div class="slider-container">
+            <div class="slide active">
+                <div class="slide-content">
+                    <div class="container-fluid">
+                        <div class="hero-text">
+                            <span class="hero-label">New Arrivals</span>
+                            <h1>Summer Collection<br><span>2026</span></h1>
+                            <p>Discover the latest trends in fashion with up to 50% off</p>
+                            <div class="hero-buttons">
+                                <button class="btn btn-primary">Shop Now</button>
+                                <button class="btn btn-outline">View Collection</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide-image">
+                    <img src="https://images.pexels.com/photos/1926769/pexels-photo-1926769.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="Fashion">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="features-bar">
+        <div class="container-fluid">
+            <div class="features-grid">
+                <div class="feature-item">
+                    <i class="fas fa-shipping-fast"></i>
+                    <div>
+                        <h4>Free Shipping</h4>
+                        <p>On orders over $50</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-undo"></i>
+                    <div>
+                        <h4>Easy Returns</h4>
+                        <p>30-day return policy</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-lock"></i>
+                    <div>
+                        <h4>Secure Payment</h4>
+                        <p>100% secure transactions</p>
+                    </div>
+                </div>
+                <div class="feature-item">
+                    <i class="fas fa-headset"></i>
+                    <div>
+                        <h4>24/7 Support</h4>
+                        <p>Dedicated customer service</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="shop-by-category">
+        <div class="container-fluid">
+            <div class="section-title">
+                <h2>Shop by Category</h2>
+                <p>Explore our diverse collection</p>
+            </div>
+            <div class="category-grid">
+                <a href="#womens" class="cat-box">
+                    <img src="https://images.pexels.com/photos/1926769/pexels-photo-1926769.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Women">
+                    <div class="cat-overlay">
+                        <h3>Women's Wear</h3>
+                        <span>Shop Now →</span>
+                    </div>
+                </a>
+                <a href="#mens" class="cat-box">
+                    <img src="https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Men">
+                    <div class="cat-overlay">
+                        <h3>Men's Wear</h3>
+                        <span>Shop Now →</span>
+                    </div>
+                </a>
+                <a href="#traditional" class="cat-box">
+                    <img src="https://picsum.photos/seed/traditional-saree/600/800" alt="Traditional Wear">
+                    <div class="cat-overlay">
+                        <h3>Traditional Wear</h3>
+                        <span>Shop Now →</span>
+                    </div>
+                </a>
+                <a href="#modern" class="cat-box">
+                    <img src="https://images.pexels.com/photos/1536619/pexels-photo-1536619.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Modern">
+                    <div class="cat-overlay">
+                        <h3>Modern Wear</h3>
+                        <span>Shop Now →</span>
+                    </div>
+                </a>
+                <a href="#accessories" class="cat-box">
+                    <img src="https://images.pexels.com/photos/1152077/pexels-photo-1152077.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Accessories">
+                    <div class="cat-overlay">
+                        <h3>Accessories</h3>
+                        <span>Shop Now →</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="deal-banner">
+        <div class="container-fluid">
+            <div class="deal-content">
+                <span class="deal-label">Limited Time Offer</span>
+                <h2>Flash Sale - Up to 70% Off</h2>
+                <p>Don't miss out on our biggest sale of the season</p>
+                <div class="countdown">
+                    <div class="time-box">
+                        <span class="time">12</span>
+                        <span class="label">Hours</span>
+                    </div>
+                    <div class="time-box">
+                        <span class="time">34</span>
+                        <span class="label">Minutes</span>
+                    </div>
+                    <div class="time-box">
+                        <span class="time">56</span>
+                        <span class="label">Seconds</span>
+                    </div>
+                </div>
+                <button class="btn btn-light">Shop Sale Now</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="womens" class="category-section">
+        <h2>Women's Wear</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="https://images.pexels.com/photos/1926769/pexels-photo-1926769.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Elegant Dresses" class="product-image">
+                <h3>Elegant Dresses</h3>
+                <p>$89.99</p>
+            </div>
+            <div class="product-card">
+                <img src="https://images.pexels.com/photos/7679720/pexels-photo-7679720.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Casual Tops" class="product-image">
+                <h3>Casual Tops</h3>
+                <p>$45.99</p>
+            </div>
+            <div class="product-card">
+                <img src="https://images.pexels.com/photos/1055691/pexels-photo-1055691.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Designer Skirts" class="product-image">
+                <h3>Designer Skirts</h3>
+                <p>$65.99</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="mens" class="category-section">
+        <h2>Men's Wear</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Formal Suits" class="product-image">
+                <h3>Formal Suits</h3>
+                <p>$199.99</p>
+            </div>
+            <div class="product-card">
+                <img src="https://images.pexels.com/photos/2897883/pexels-photo-2897883.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Casual Shirts" class="product-image">
+                <h3>Casual Shirts</h3>
+                <p>$55.99</p>
+            </div>
+            <div class="product-card">
+                <img src="https://images.pexels.com/photos/1598507/pexels-photo-1598507.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Denim Jeans" class="product-image">
+                <h3>Denim Jeans</h3>
+                <p>$75.99</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="traditional" class="category-section">
+        <h2>Traditional Wear - South Indian Sarees</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="https://picsum.photos/seed/silk-saree/600/800" alt="South Indian Silk Sarees" class="product-image">
+                <h3>South Indian Silk Sarees</h3>
+                <p>$120.99</p>
+            </div>
+            <div class="product-card">
+                <img src="https://picsum.photos/seed/ethnic-saree/600/800" alt="South Indian Ethnic Sarees" class="product-image">
+                <h3>South Indian Ethnic Sarees</h3>
+                <p>$145.99</p>
+            </div>
+            <div class="product-card">
+                <img src="https://picsum.photos/seed/handloom-saree/600/800" alt="South Indian Handloom Sarees" class="product-image">
+                <h3>South Indian Handloom Sarees</h3>
+                <p>$95.99</p>
+            </div>
+            <div class="product-card">
+                <img src="https://picsum.photos/seed/banarasi-saree/600/800" alt="South Indian Temple Sarees" class="product-image">
+                <h3>South Indian Temple Sarees</h3>
+                <p>$180.99</p>
+            </div>
+            <div class="product-card">
+                <img src="https://picsum.photos/seed/kanjivaram-saree/600/800" alt="Kanjivaram South Indian Sarees" class="product-image">
+                <h3>Kanjivaram South Indian Sarees</h3>
+                <p>$210.99</p>
+            </div>
+            <div class="product-card">
+                <img src="https://picsum.photos/seed/cotton-saree/600/800" alt="South Indian Cotton Sarees" class="product-image">
+                <h3>South Indian Cotton Sarees</h3>
+                <p>$75.99</p>
+            </div>
+            <div class="product-card">
+                <img src="https://picsum.photos/seed/chanderi-saree/600/800" alt="South Indian Pattu Sarees" class="product-image">
+                <h3>South Indian Pattu Sarees</h3>
+                <p>$135.99</p>
+            </div>
+            <div class="product-card">
+                <img src="https://picsum.photos/seed/georgette-saree/600/800" alt="South Indian Designer Sarees" class="product-image">
+                <h3>South Indian Designer Sarees</h3>
+                <p>$110.99</p>
+            </div>
+            <div class="product-card">
+                <img src="https://picsum.photos/seed/chiffon-saree/600/800" alt="South Indian Bridal Sarees" class="product-image">
+                <h3>South Indian Bridal Sarees</h3>
+                <p>$98.99</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="modern" class="category-section">
+        <h2>Modern Wear</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="https://images.pexels.com/photos/1536619/pexels-photo-1536619.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Contemporary Fusion" class="product-image">
+                <h3>Contemporary Fusion</h3>
+                <p>$95.99</p>
+            </div>
+            <div class="product-card">
+                <img src="https://images.pexels.com/photos/1043474/pexels-photo-1043474.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Street Style" class="product-image">
+                <h3>Street Style</h3>
+                <p>$70.99</p>
+            </div>
+            <div class="product-card">
+                <img src="https://images.pexels.com/photos/1381556/pexels-photo-1381556.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Urban Chic" class="product-image">
+                <h3>Urban Chic</h3>
+                <p>$110.99</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="accessories" class="category-section">
+        <h2>Fashion Accessories</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="https://images.pexels.com/photos/1152077/pexels-photo-1152077.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Designer Bags" class="product-image">
+                <h3>Designer Bags</h3>
+                <p>$125.99</p>
+            </div>
+            <div class="product-card">
+                <img src="https://images.pexels.com/photos/1191531/pexels-photo-1191531.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Jewelry Collection" class="product-image">
+                <h3>Jewelry Collection</h3>
+                <p>$60.99</p>
+            </div>
+            <div class="product-card">
+                <img src="https://images.pexels.com/photos/1927259/pexels-photo-1927259.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Stylish Belts" class="product-image">
+                <h3>Stylish Belts</h3>
+                <p>$35.99</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about-section">
+        <div class="container-fluid">
+            <div class="section-title">
+                <h2>About Zorio</h2>
+                <p>Our Story & Vision</p>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Welcome to Zorio Fashion</h3>
+                    <p>Founded in 2026, Zorio is your premier destination for elegant and contemporary fashion. We believe that fashion is more than just clothing – it's a form of self-expression, confidence, and art.</p>
+                    <p>Our carefully curated collections feature the finest selection of women's wear, men's wear, traditional South Indian sarees, modern fashion, and exclusive accessories. Each piece is chosen with attention to quality, style, and craftsmanship.</p>
+                    <p>At Zorio, we are committed to providing our customers with exceptional shopping experiences, from browsing our collections to receiving your orders at your doorstep.</p>
+                </div>
+                <div class="founders-section">
+                    <h3>Our Founders</h3>
+                    <p class="founders-intro">Zorio was founded by five passionate fashion enthusiasts who share a vision of making quality fashion accessible to everyone.</p>
+                    <div class="founders-grid">
+                        <div class="founder-card">
+                            <div class="founder-icon">
+                                <i class="fas fa-user-circle"></i>
+                            </div>
+                            <h4>Lakshmi Prasanna</h4>
+                            <p>Co-Founder</p>
+                        </div>
+                        <div class="founder-card">
+                            <div class="founder-icon">
+                                <i class="fas fa-user-circle"></i>
+                            </div>
+                            <h4>Lavanya</h4>
+                            <p>Co-Founder</p>
+                        </div>
+                        <div class="founder-card">
+                            <div class="founder-icon">
+                                <i class="fas fa-user-circle"></i>
+                            </div>
+                            <h4>Saniya</h4>
+                            <p>Co-Founder</p>
+                        </div>
+                        <div class="founder-card">
+                            <div class="founder-icon">
+                                <i class="fas fa-user-circle"></i>
+                            </div>
+                            <h4>Havila</h4>
+                            <p>Co-Founder</p>
+                        </div>
+                        <div class="founder-card">
+                            <div class="founder-icon">
+                                <i class="fas fa-user-circle"></i>
+                            </div>
+                            <h4>Divya</h4>
+                            <p>Co-Founder</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-values">
+                <div class="value-box">
+                    <i class="fas fa-gem"></i>
+                    <h4>Quality First</h4>
+                    <p>We source only the finest materials and work with skilled artisans</p>
+                </div>
+                <div class="value-box">
+                    <i class="fas fa-heart"></i>
+                    <h4>Customer Focused</h4>
+                    <p>Your satisfaction is our top priority in everything we do</p>
+                </div>
+                <div class="value-box">
+                    <i class="fas fa-leaf"></i>
+                    <h4>Sustainable</h4>
+                    <p>Committed to ethical and environmentally responsible practices</p>
+                </div>
+                <div class="value-box">
+                    <i class="fas fa-star"></i>
+                    <h4>Innovation</h4>
+                    <p>Constantly evolving to bring you the latest fashion trends</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+        <div class="container-fluid">
+            <div class="section-title">
+                <h2>Contact Us</h2>
+                <p>We'd love to hear from you</p>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <div class="info-box">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <h3>Visit Us</h3>
+                        <p>Zorio Fashion Store<br>Hyderabad, Telangana<br>India</p>
+                    </div>
+                    <div class="info-box">
+                        <i class="fas fa-phone"></i>
+                        <h3>Call Us</h3>
+                        <p>+91 98765 43210<br>Mon-Fri: 9AM - 6PM<br>Sat-Sun: 10AM - 4PM</p>
+                    </div>
+                    <div class="info-box">
+                        <i class="fas fa-envelope"></i>
+                        <h3>Email Us</h3>
+                        <p>support@zorio.com<br>sales@zorio.com<br>info@zorio.com</p>
+                    </div>
+                    <div class="info-box">
+                        <i class="fas fa-clock"></i>
+                        <h3>Business Hours</h3>
+                        <p>Monday - Friday: 9AM - 6PM<br>Saturday: 10AM - 4PM<br>Sunday: Closed</p>
+                    </div>
+                </div>
+                <div class="contact-form">
+                    <form>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <input type="text" placeholder="Your Name" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" placeholder="Your Email" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" placeholder="Subject" required>
+                        </div>
+                        <div class="form-group">
+                            <textarea rows="6" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Zorio Fashion. All rights reserved.</p>
+    </footer>
+</body>
+</html>
